@@ -43,8 +43,8 @@ HIVE_ENGINE=hive
 
 # MySQL相关配置
 mysql_user="root"
-mysql_passwd="000000"
-mysql_host="hadoop102"
+mysql_passwd="12345678"
+mysql_host="node-etl-01"
 mysql_DB="data_supervisor"
 mysql_tbl="day_on_day"
 
