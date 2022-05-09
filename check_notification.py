@@ -31,8 +31,8 @@ def read_table(table, dt):
 
     # mysql必要参数设置，需根据实际情况作出修改
     mysql_user = "root"
-    mysql_password = "000000"
-    mysql_host = "hadoop102"
+    mysql_password = "12345678"
+    mysql_host = "node-etl-01"
     mysql_schema = "data_supervisor"
 
     # 获取Mysql数据库连接
@@ -96,8 +96,8 @@ def mail_alert(line):
 
     # smtp协议发送邮件的必要设置
     mail_host = "smtp.qq.com"
-    mail_user = "2023851094@qq.com"
-    mail_pass = "ffeyrdvmhvpmcjff"
+    mail_user = "1626877232@qq.com"
+    mail_pass = "Rgdwoyfuhjyudjee"
 
     # 告警内容
     message = ["".join(["表格", str(line["tbl"]), "数据异常."]),
